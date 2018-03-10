@@ -257,7 +257,7 @@ local gsoHarassKeys = {}
 local gsoLastHitKeys = {}
 local gsoLaneClearKeys = {}
 
-local gsoMenu = MenuElement({name = "Gamsteron", id = "gamsteronorb", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/orbbb.png" })
+local gsoMenu = MenuElement({name = "Gamsteron", id = "gamsteronorb", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/orbbb.png" })
 local gsoMode = {
     isCombo = function()
                   for i = 1, #gsoComboKeys do
@@ -326,8 +326,8 @@ local gsoAttacks = {
     ["viktorqbuff"] = true
 }
 local gsoIcons = {
-    ["orb"] = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/orb.png",
-    ["ts"] = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/ts.png"
+    ["orb"] = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/orb.png",
+    ["ts"] = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/ts.png"
 }
 local gsoUndyingBuffs = {
     ["zhonyasringshield"] = true
