@@ -2,7 +2,9 @@
 local gsoVersion = "2.3"
 
  --[[
+.
 A P I
+
 INITIALIZE:
 local gsoOrbwalker
 function OnLoad()
