@@ -717,7 +717,7 @@ function OnLoad()
       local champInfo = { hasQBuff = false, qEndTime = 0, asNoQ = myHero.attackSpeed, oldWindUp = myHero.attackData.windUpTime }
       
       --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({id = "gsoashe", name = "Ashe", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/ashe.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({id = "gsoashe", name = "Ashe", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/ashe.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
           gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
           gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -931,7 +931,7 @@ function OnLoad()
       gsoSpellData.r = { delay = 0.25, range = 0, width = 125, speed = 2000, sType = "line", col = false, hCol = false, mCol = false, out = true }
       
       --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({name = "Draven", id = "gsodraven", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/draven.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({name = "Draven", id = "gsodraven", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/draven.png" })
         gsoMeMenu:MenuElement({name = "AXE settings", id = "aset", type = MENU })
           gsoMeMenu.aset:MenuElement({id = "stopmove", name = "Hold radius", value = 100, min = 75, max = 125, step = 5 })
           if gsoMeMenu.aset.stopmove:Value() < 75 then gsoMeMenu.aset.stopmove:Value(75) end
@@ -1206,7 +1206,7 @@ function OnLoad()
       gsoSpellData.r = { delay = 1, range = 0, width = 160, speed = 2000, sType = "line", col = false, hCol = false, mCol = false, out = true }
     
     --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({name = "Ezreal", id = "gsoezreal", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/ezreal.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({name = "Ezreal", id = "gsoezreal", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/ezreal.png" })
         gsoMeMenu:MenuElement({name = "Auto Q", id = "autoq", type = MENU })
           gsoMeMenu.autoq:MenuElement({id = "enable", name = "Enable", value = true, key = string.byte("T"), toggle = true})
           gsoMeMenu.autoq:MenuElement({id = "autoqout", name = "Only if enemy out of attack range", value = true})
@@ -1490,7 +1490,7 @@ function OnLoad()
       local champInfo = { hasQBuff = false, asQ = gsoMyHero.attackSpeed, lasQBuff = 0, lastQNoBuff = 0 }
       
       --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({id = "gsojinx", name = "Jinx", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/jinx.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({id = "gsojinx", name = "Jinx", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/jinx.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
           gsoMeMenu.qset:MenuElement({id = "qrange", name = "Extra Q Buff Range", value = 0, min = 0, max = 50, step = 10 })
           gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
@@ -1713,7 +1713,7 @@ function OnLoad()
       local champInfo = { hasWBuff = false }
       
       --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({id = "gsokog", name = "KogMaw", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/kog.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({id = "gsokog", name = "KogMaw", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/kog.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
             gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
             gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -1991,7 +1991,7 @@ function OnLoad()
     
     __Lucian = function()
       local champInfo = { hasRBuff = false }
-      local gsoMeMenu = gsoMenu:MenuElement({name = "Lucian", id = "gsolucian", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/lucian.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({name = "Lucian", id = "gsolucian", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/lucian.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
           gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
           gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -2181,7 +2181,7 @@ function OnLoad()
     
     __Sivir = function()
       local champInfo = { lastReset = 0, asNoW = myHero.attackSpeed }
-        local gsoMeMenu = gsoMenu:MenuElement({name = "Sivir", id = "gsosivir", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/sivir.png" })
+        local gsoMeMenu = gsoMenu:MenuElement({name = "Sivir", id = "gsosivir", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/sivir.png" })
           gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
             gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
             gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -2313,7 +2313,7 @@ function OnLoad()
       gsoOrbwalker.IsAP()
       
       --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({name = "Teemo", id = "gsoteemo", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/teemo.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({name = "Teemo", id = "gsoteemo", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/teemo.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
             gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
             gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -2476,7 +2476,7 @@ function OnLoad()
       local champInfo = { asNoQ = 0, tristanaETar = nil }
       
       --[[ MENU ]]
-      local gsoMeMenu = gsoMenu:MenuElement({name = "Tristana", id = "gsotristana", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/tristana.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({name = "Tristana", id = "gsotristana", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/tristana.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
           gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
           gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -2685,7 +2685,7 @@ function OnLoad()
       local champInfo = { hasQBuff = false, QEndTime = 0, hasQASBuff = false, QASEndTime = 0, lastASCheck = 0, asNoQ = myHero.attackSpeed, windUpNoQ = myHero.attackData.windUpTime, eBuffs = {}, boolRecall = true }
       
       --[[ MENU ]]
-      local gsoMeMenu = gsoMenu:MenuElement({name = "Twitch", id = "gsotwitch", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/twitch.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({name = "Twitch", id = "gsotwitch", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/twitch.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
           gsoMeMenu.qset:MenuElement({id = "recallkey", name = "Invisible Recall Key", key = string.byte("T"), value = false, toggle = true})
           gsoMeMenu.qset.recallkey:Value(false)
@@ -2948,7 +2948,7 @@ function OnLoad()
       local gsoWStacks = {}
       
       --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({id = "gsovarus", name = "Varus", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/gsovarussf3f.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({id = "gsovarus", name = "Varus", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/gsovarussf3f.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
           gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
           gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -3143,7 +3143,7 @@ function OnLoad()
       require "MapPositionGOS"
       
       --[[ MENU ]]
-      local gsoMeMenu = gsoMenu:MenuElement({name = "Vayne", id = "gsovayne", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/vayne.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({name = "Vayne", id = "gsovayne", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/vayne.png" })
           gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
               gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
               gsoMeMenu.qset:MenuElement({id = "harass", name = "Harass", value = false})
@@ -3277,7 +3277,7 @@ function OnLoad()
       local xayahEPas = {}
       
       --[[ menu ]]
-      local gsoMeMenu = gsoMenu:MenuElement({id = "gsoxayah", name = "Xayah", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/gsoxayahysd2.png" })
+      local gsoMeMenu = gsoMenu:MenuElement({id = "gsoxayah", name = "Xayah", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/gsoxayahysd2.png" })
         gsoMeMenu:MenuElement({name = "Q settings", id = "qset", type = MENU })
           gsoMeMenu.qset:MenuElement({id = "outaa", name = "Out of attack range", value = false})
           gsoMeMenu.qset:MenuElement({id = "combo", name = "Combo", value = true})
@@ -3567,10 +3567,10 @@ function OnLoad()
     __Zoe = function() end,
     __Zyra = function() end
   }
-  gsoMenu:MenuElement({name = "Drawings", id = "gsodraw", leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/circles.png", type = MENU })
+  gsoMenu:MenuElement({name = "Drawings", id = "gsodraw", leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/circles.png", type = MENU })
     gsoMenu.gsodraw:MenuElement({name = "Enabled",  id = "enabled", value = true})
-  gsoMenu:MenuElement({name = "Items", id = "gsoitem", type = MENU, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/item.png" })
-    gsoMenu.gsoitem:MenuElement({id = "botrk", name = "        botrk", value = true, leftIcon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/botrk.png" })
+  gsoMenu:MenuElement({name = "Items", id = "gsoitem", type = MENU, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/item.png" })
+    gsoMenu.gsoitem:MenuElement({id = "botrk", name = "        botrk", value = true, leftIcon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/botrk.png" })
   gsoOrbwalker:OnMove(function()
     if gsoMode.isCombo() then
       local target = gsoExtra.lastTarget
@@ -3619,20 +3619,20 @@ function OnLoad()
         gsoMenu.gsodraw.circle1.rrangecolor:Hide(true)
         gsoMenu.gsodraw.circle1.rrangewidth:Hide(true) end end })
   if myHero.charName == "Twitch" then
-    gsoMenu.gsodraw.circle1:MenuElement({name = "Q Invisible Range", id = "note9", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+    gsoMenu.gsodraw.circle1:MenuElement({name = "Q Invisible Range", id = "note9", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
       onclick = function()
         gsoMenu.gsodraw.circle1.invenable:Hide()
         gsoMenu.gsodraw.circle1.invcolor:Hide() end })
       gsoMenu.gsodraw.circle1:MenuElement({id = "invenable", name = "        Enabled", value = true})
       gsoMenu.gsodraw.circle1:MenuElement({id = "invcolor", name = "        Color ", color = Draw.Color(200, 255, 0, 0)})
-    gsoMenu.gsodraw.circle1:MenuElement({name = "Q Notification Range", id = "note10", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+    gsoMenu.gsodraw.circle1:MenuElement({name = "Q Notification Range", id = "note10", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
       onclick = function()
         gsoMenu.gsodraw.circle1.notenable:Hide()
         gsoMenu.gsodraw.circle1.notcolor:Hide() end })
       gsoMenu.gsodraw.circle1:MenuElement({id = "notenable", name = "        Enabled", value = true})
       gsoMenu.gsodraw.circle1:MenuElement({id = "notcolor", name = "        Color", color = Draw.Color(200, 188, 77, 26)}) end
   if gsoSpellDraw.q then
-    gsoMenu.gsodraw.circle1:MenuElement({name = "Q Range", id = "note5", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+    gsoMenu.gsodraw.circle1:MenuElement({name = "Q Range", id = "note5", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
       onclick = function()
         gsoMenu.gsodraw.circle1.qrange:Hide()
         gsoMenu.gsodraw.circle1.qrangecolor:Hide()
@@ -3641,7 +3641,7 @@ function OnLoad()
       gsoMenu.gsodraw.circle1:MenuElement({id = "qrangecolor", name = "        Color", color = Draw.Color(255, 66, 134, 244)})
       gsoMenu.gsodraw.circle1:MenuElement({id = "qrangewidth", name = "        Width", value = 1, min = 1, max = 10}) end
   if gsoSpellDraw.w then
-    gsoMenu.gsodraw.circle1:MenuElement({name = "W Range", id = "note6", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+    gsoMenu.gsodraw.circle1:MenuElement({name = "W Range", id = "note6", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
       onclick = function()
         gsoMenu.gsodraw.circle1.wrange:Hide()
         gsoMenu.gsodraw.circle1.wrangecolor:Hide()
@@ -3650,7 +3650,7 @@ function OnLoad()
       gsoMenu.gsodraw.circle1:MenuElement({id = "wrangecolor", name = "        Color", color = Draw.Color(255, 92, 66, 244)})
       gsoMenu.gsodraw.circle1:MenuElement({id = "wrangewidth", name = "        Width", value = 1, min = 1, max = 10}) end
   if gsoSpellDraw.e then
-    gsoMenu.gsodraw.circle1:MenuElement({name = "E Range", id = "note7", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+    gsoMenu.gsodraw.circle1:MenuElement({name = "E Range", id = "note7", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
       onclick = function()
           gsoMenu.gsodraw.circle1.erange:Hide()
           gsoMenu.gsodraw.circle1.erangecolor:Hide()
@@ -3659,7 +3659,7 @@ function OnLoad()
       gsoMenu.gsodraw.circle1:MenuElement({id = "erangecolor", name = "        Color", color = Draw.Color(255, 66, 244, 149)})
       gsoMenu.gsodraw.circle1:MenuElement({id = "erangewidth", name = "        Width", value = 1, min = 1, max = 10}) end
   if gsoSpellDraw.r then
-    gsoMenu.gsodraw.circle1:MenuElement({name = "R Range", id = "note8", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+    gsoMenu.gsodraw.circle1:MenuElement({name = "R Range", id = "note8", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
       onclick = function()
         gsoMenu.gsodraw.circle1.rrange:Hide()
         gsoMenu.gsodraw.circle1.rrangecolor:Hide()
@@ -3668,7 +3668,7 @@ function OnLoad()
       gsoMenu.gsodraw.circle1:MenuElement({id = "rrangecolor", name = "        Color", color = Draw.Color(255, 244, 182, 66)})
       gsoMenu.gsodraw.circle1:MenuElement({id = "rrangewidth", name = "        Width", value = 1, min = 1, max = 10}) end
   if myHero.charName == "Draven" then
-    gsoMenu.gsodraw.circle1:MenuElement({name = "Active Axe", id = "note9", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+    gsoMenu.gsodraw.circle1:MenuElement({name = "Active Axe", id = "note9", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
       onclick = function()
         gsoMenu.gsodraw.circle1.aaxeenable:Hide()
         gsoMenu.gsodraw.circle1.aaxecolor:Hide()
@@ -3678,7 +3678,7 @@ function OnLoad()
       gsoMenu.gsodraw.circle1:MenuElement({name = "        Color",  id = "aaxecolor", color = Draw.Color(255, 49, 210, 0)})
       gsoMenu.gsodraw.circle1:MenuElement({name = "        Width",  id = "aaxewidth", value = 1, min = 1, max = 10})
       gsoMenu.gsodraw.circle1:MenuElement({name = "        Radius",  id = "aaxeradius", value = 170, min = 50, max = 300, step = 10})
-      gsoMenu.gsodraw.circle1:MenuElement({name = "InActive Axes", id = "note10", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+      gsoMenu.gsodraw.circle1:MenuElement({name = "InActive Axes", id = "note10", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
         onclick = function()
           gsoMenu.gsodraw.circle1.iaxeenable:Hide()
           gsoMenu.gsodraw.circle1.iaxecolor:Hide()
@@ -3703,14 +3703,14 @@ function OnLoad()
           gsoMenu.gsodraw.texts1.xautoq:Hide(true)
           gsoMenu.gsodraw.texts1.yautoq:Hide(true) end end})
       if myHero.charName == "Twitch" then
-        gsoMenu.gsodraw.texts1:MenuElement({name = "Q Timer", id = "note11", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+        gsoMenu.gsodraw.texts1:MenuElement({name = "Q Timer", id = "note11", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
           onclick = function()
             gsoMenu.gsodraw.texts1.enabletime:Hide()
             gsoMenu.gsodraw.texts1.colortime:Hide() end })
           gsoMenu.gsodraw.texts1:MenuElement({id = "enabletime", name = "        Enabled", value = true})
           gsoMenu.gsodraw.texts1:MenuElement({id = "colortime", name = "        Color", color = Draw.Color(200, 65, 255, 100)}) end
       if myHero.charName == "Ezreal" then
-        gsoMenu.gsodraw.texts1:MenuElement({name = "Auto Q", id = "note9", icon = "https://raw.githubusercontent.com/gamsteron/GoSExt/master/Icons/arrow.png", type = SPACE,
+        gsoMenu.gsodraw.texts1:MenuElement({name = "Auto Q", id = "note9", icon = "https://raw.githubusercontent.com/funboxxx/External/master/Icons/arrow.png", type = SPACE,
           onclick = function()
             gsoMenu.gsodraw.texts1.enableautoq:Hide()
             gsoMenu.gsodraw.texts1.colorautoqe:Hide()
